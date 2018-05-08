@@ -30,8 +30,5 @@
 			</div>
 		</nav>
 	</header>
-	<div id="test" class="testtest" align="center"> 
-		<div>fd</div>
- 	</div>
 </body>
 </html>

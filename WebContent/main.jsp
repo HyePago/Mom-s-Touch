@@ -13,6 +13,16 @@
 %>
 
 	<jsp:include page="top_menu.jsp" />
-
+	
+	<table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tbody>
+			<tr>
+				<td align="center" width="1200px" nowrap>
+					<jsp:include page="<%= ContentPage %>" flush="false" />
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	
 </body>
 </html>
