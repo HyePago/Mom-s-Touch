@@ -9,7 +9,7 @@
 <!-- style -->
 <link href="css/mystyle.css" rel="stylesheet">
 </head>
-<body>
+<body id="bodybg2">
 	<!-- Header -->
 	<header id="mainHeader">
 		<nav id="topMenu">

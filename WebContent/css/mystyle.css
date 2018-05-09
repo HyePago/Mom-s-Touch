@@ -1,5 +1,12 @@
 @charset "EUC-KR";
 
+#bodybg {
+	background-image: url("../Images/background.gif");
+}
+#bodybg2 {
+	background-color: white;
+}
+
 /* Top Menu */
 #mainHeader {
 	background: url(../Images/header_Bg.png) repeat-x left top;
@@ -10,7 +17,6 @@
 #logo {
 	position: relative;
 	margin: auto;
-	margin-left: -139px;
 }
 #logo_img {
 	background: transparent;
@@ -61,10 +67,10 @@
 .navbar-nav1 {
 	margin-left: auto;
 	margin-right: auto;
-	left: 22%;
+	text-align: center;
+	left: 30%;
 }
 #navbar-1 {
-	margin-left: -80px;
 }
 #topMenu .navbar-nav1 > li.nav-item > a {
 	font-size: 13px;
@@ -76,10 +82,7 @@
 .navbar-nav2 {
 	margin-left: auto;
 	margin-right: auto;
-	left: 55%;
-}
-#navbar-1 {
-	margin-left: -80px;
+	left: 60%;
 }
 #topMenu .navbar-nav2 > li.nav-item > a {
 	font-size: 13px;
@@ -88,18 +91,7 @@
 	text-transform: uppercase;
 	padding: 10px 20px;
 }
-#item1 {
-	margin: auto;
-}
-#item2 {
-	margin: auto;
-}
-#item3 {
-	margin: auto;
-}
-#item4 {
-	margin: auto;
-}
+
 
 /* View */
 img {
@@ -116,7 +108,7 @@ img {
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 51%;
+  top: 46%;
   width: auto;
   padding: 16px;
   color: black;
@@ -127,38 +119,19 @@ img {
 }
 /* Position the "next button" to the right */
 .prev {
-	margin-left: -550px;
+	margin-left: -580px;
 }
 .next {
-	margin-left: 380px;
+	margin-left: 500px;
 }
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.2);
 }
-.TitleText {
-  color: #8A4924;
-  font-weight: bold;
-  font-size: 26px;
-  padding: 8px 12px;
-  margin-top: 20px;
-  bottom: 8px;
-  width: 100%;
-  margin-left: -120px;
-  text-align: center;
-.ContentText {
-  color: #C07F5A;
-  font-size: 13px;
-  padding: 8px 12px;
-  bottom: 8px;
-  width: 100%;
-  margin-bottom: 30px;
-  margin-left: -120px;
-  text-align: center;
-}
 /* The dots/bullets/indicators */
 .dot_div {
-  margin-left: -120px;
+	position: relative;
+	margin-top: -80px;
 }
 .dot {
   cursor: pointer;
@@ -198,11 +171,6 @@ img {
 }
 #main_img_1 {
 	margin-top: 20px;
-	margin-left: 240px;
-}
-#main_img_2 {
-	margin-top: -390px;
-	margin-left: -360px;
 }
 
 /* Main Images */
