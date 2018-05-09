@@ -11,16 +11,16 @@
 	<section id="container">
 		<div class="slideshow-container">
 			<div class="mySlides fade">
-				<img id="main_img_1" src="Images/img_01.png" />
+				<img id="main_img_1" width="900px" src="Images/img_01.png" />
 			</div>
 			<div class="mySlides fade">
-				<img src="Images/img_02.png" id="main_img_1" />
+				<img src="Images/img_02.png" width="900px" id="main_img_1" />
 			</div>
 			<div class="mySlides fade">
-				<img id="main_img_1" src="Images/img_03.png" />
+				<img id="main_img_1" width="900px" src="Images/img_03.png" />
 			</div>	
 			<div class="mySlides fade">
-				<img id="main_img_1" src="Images/img_04.png" />
+				<img id="main_img_1" width="900px" src="Images/img_04.png" />
 			</div>	
 			
 			<a class="prev" onclick="plusSlides(-1)"><img src="Images/banner_Pre.png"></a>
@@ -31,14 +31,6 @@
 		  <span class="dot" onclick="currentSlide(2)"></span> 
 		  <span class="dot" onclick="currentSlide(3)"></span> 
 		  <span class="dot" onclick="currentSlide(4)"></span> 
-		</div>
-	</section>
-	
-	<section class="p-0" id="portfolio">
-		<div id="img_container">
-			<a href="#">
-				<img src="Images/img1.jpg" width=200px height=200px class="img_view">
-			</a>
 		</div>
 	</section>
 	

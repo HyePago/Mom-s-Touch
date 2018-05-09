@@ -11,7 +11,6 @@
 #mainHeader {
 	background: url(../Images/header_Bg.png) repeat-x left top;
 	width: 100%;
-	height: 108px;
 	top: 0;
 }
 #logo {
@@ -27,7 +26,6 @@
 	margin: 0 auto;
 	border-bottom: 1px solid #e9ecef;
 	width: 100%;
-	height: 108px;
 	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;	
 	background: url(../Images/header_Bg.png) repeat-x left top;
 	top: 0;'
@@ -61,7 +59,6 @@
 	text-decoration: none;
 }
 .navbar-nav1 {
-	
 	margin: auto;
 	margin-top: 30px;
 	margin-left: auto;
@@ -97,17 +94,32 @@
 }
 .nav-item {
 	display: inline-block;
-}
-.nav-item:hover .dropdown-content{
-	display: block;
-}
-.nav-item:hover .dropdown-content{
-	display: block;
-	background-color: red;
+	cursor: pointer;
+	text-decoration: none;
 }
 #dropdown-content {
-	display: none;
+	display: inherit;
+	background-color: white;
+	z-index: 1;
 }
+#dropdown-content a {
+	background-color: #f1f1f1;
+}
+#dropdown-content a:hover {
+	display: block;
+	padding: 7px 12px;
+	background-color: white;
+	text-decoration: none;
+}
+.dropdown-menu-item:hover #dropdown-content{
+    display: block;
+    text-decoration: none;
+}
+.link_content {
+	text-decoration: none;
+}
+
+
 /*
 #topMenu > div > div > ul > li a:hover #dropdown-content {
 	display: block;
@@ -142,10 +154,10 @@ img {
 }
 /* Position the "next button" to the right */
 .prev {
-	margin-left: -580px;
+	left: 0;
 }
 .next {
-	margin-left: 500px;
+	right: 0;
 }
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
@@ -178,6 +190,8 @@ img {
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
+  text-align: center;
+  margin: auto;
 }
 @-webkit-keyframes fade {
   from {opacity: .4} 
@@ -209,11 +223,96 @@ img {
 	height: 100px;
 }
 
-.testtest {
-	margin: auto;
+
+/* CategoryView */
+.category_out_div {
 	width: 1200px;
+	margin: auto;
 	text-align: center;
 }
-.test2 {
+.category_nav {
+	float: left;
+	margin: auto;
+	margin-top:10px;
+	text-align: center;
+}
+.category_nav ul {
+	list-style: none;
+}
+.category_nav ul li {
+	line-height: 30px;
+}
+.category_nav ul li a {
+	text-decoration: none;
+}
+.category_section {
+	margin: auto;
+	margin-left: 250px;
+	margin-top: 30px;
+	position: absolute;
+	width: 800px;
+	clear: both;
+	text-align: center;
+}
+.category_top_img {
+	display: block;
+	left: 0;
+	margin-left: 40px;
+}
+
+/* Menu */
+.menu_chicken {
+	background-color: white;
+	width: 750px;
+	height: 800px;
+	border-radius: 15px;
+}
+.img_menu_chicken {
+	margin-top: 20px;	
+}
+.menu_table {
+	margin: auto;
+	text-align: center;
+	margin-top: 20px;
+}
+.menu_table_img {
+	margin-left: 20px;
+	margin-right: 20px;
+	border: 1px dotted #666;
+	margin-top: 30px;
+}
+.menu_table_text {
+	margin: -50dp;
+	padding: 0dp;
+	margin-bottom: 30px;
+}
+
+/* SignUp */
+.signup_div {
+	margin: auto;
+	background-color: rgba(255,255,255,0.6);
+	width: 400px;
+	height: 200px;
+	border: #666 solid 1px;
+	border-radius: 25px;
+	margin-top: 50px;
+	padding: 30px;
+}
+.signup_section {
+	margin: auto;
+	text-align: center;
+}
+.sign_table {
+	margin-top: 20px;
+}
+.signup_btn {
 	background-color: red;
+	color: white;
+	border-radius: 15px;
+	margin-top: 15px;
+}
+.signup_input {
+	border-radius: 13px;
+	padding-left: 13px;
+	margin-left: 10px;
 }
