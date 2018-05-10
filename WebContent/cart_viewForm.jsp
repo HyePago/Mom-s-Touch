@@ -25,13 +25,13 @@
 %>
 <form action="cart_viewProc.jsp">
 	<div class="cart_insert_out_class">
-		<input type="hidden" name="price" value="<%= price %>">
 		<table class="cart_view_table">
 			<tr class="cart_view_tr">
 				<td> 이미지 </td>
 				<td> 이름 </td>
 				<td> 총 가격 </td>
 				<td> 개수 </td>
+				<td></td>
 			</tr>
 			<%
 				Boolean bool = false;
@@ -59,6 +59,7 @@
 							<td width="100px"><%= info[1] %></td>
 							<td width="100px"><%= (price * count) %></td>
 							<td width="100px"><%= info[3] %></td>
+							<td><input type="button" value="삭제" onclick="location.href='delete_cart.jsp?delete_img=<%= info[0] %>'" ></td>
 						</tr>
 						<%
 					}
@@ -69,15 +70,19 @@
 			<tr class="cart_view_tr">
 				<td colspan="2">총 금액</td>
 				<td><%= sum %></td>
+				<td></td>
+				<td></td>
 			</tr>
 			<tr class="cart_view_tr">
 				<td colspan="2"> <input type="submit" value="구입" class="cart_view_btn"> </td>
 				<td colspan="2"> <input type="button" onclick="location='cart_view_cancel.jsp'" value="취소" class="cart_view_btn"> </td>
+				<td></td>
 			</tr>
 			<tr> <td></td> </tr>
 			<tr> <td></td> </tr>
 		</table>
 	</div>
+	<input type="hidden" name="price" value="<%= sum %>">
 </form>
 </body>
 </html>
