@@ -1,0 +1,36 @@
+Images/chicken_1.jpg	찜햇닭	18900
+Images/chicken_2.jpg	찜햇닭 강정	21000
+Images/chicken_3.jpg	찜햇닭 윙	17900
+Images/chicken_4.jpg	치파오치킨	19800
+Images/chicken_5.jpg	치파오	16900
+Images/chicken_6.jpg	불사치킨	17900
+Images/chicken_7.jpg	불사텐더	20900
+Images/chicken_8.jpg	불사윙	17800
+Images/chicken_9.jpg	강정콤보	23900
+Images/burger_1.jpg	치즈베이컨버거	4800
+Images/burger_2.jpg	치킨커틀렛버거	3900
+Images/burger_3.jpg	딥치즈버거	4400
+Images/burger_4.jpg	불싸이버거	3800
+Images/burger_5.jpg	불갈비치킨버거	4100
+Images/burger_6.jpg	리샐버거	4200
+Images/burger_7.jpg	화이트갈릭버거	4900
+Images/burger_8.jpg	칼슘플러스버거	4300
+Images/burger_9.jpg	스파이시불고기버거	4200
+Images/side_1.jpg	어니언치즈감자	2500
+Images/side_2.jpg	치즈감자	2300
+Images/side_3.jpg	치즈할라피뇨너겟	2700
+Images/side_4.jpg	할라피뇨너겟	2500
+Images/side_5.jpg	리코타샐러드	3700
+Images/side_6.jpg	김떡만	4300
+Images/side_7.jpg	텐터로인(2조각)	3400
+Images/side_8.jpg	프라이랩(2종)	3300
+Images/side_9.jpg	팝콘만두(4종)	3900
+Images/drink_1.jpg	딸기크림컵빙수	4100
+Images/drink_2.jpg	딸기크림빙수	4200
+Images/drink_3.jpg	레몬에이드	3800
+Images/drink_4.jpg	레몬티	3700
+Images/drink_5.jpg	허브복숭아티	3400
+Images/drink_6.jpg	스트로베리밀크	3300
+Images/drink_7.jpg	스위트망고	3800
+Images/drink_8.jpg	스무디 딸기	3900
+Images/drink_9.jpg	스무디 망고	3900

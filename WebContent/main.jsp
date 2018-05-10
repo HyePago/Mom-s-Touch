@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>HYEJIN's TOUCH</title>
 </head>
 <body id="bodybg">
 
@@ -17,5 +17,11 @@
 	<section width="1200px">
 		<jsp:include page="<%= ContentPage %>" flush="false" />
 	</section>
+	
+	<footer class="main_footer">
+		<hr />
+		<address>https://github.com/HyePago/Mom-s-Touch</address>
+		<strong>3209 김혜진</strong>
+	</footer>
 </body>
 </html>

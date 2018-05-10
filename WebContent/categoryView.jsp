@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>HYEJIN's TOUCH</title>
 </head>
 <body id="bodybg">
 

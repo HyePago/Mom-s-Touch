@@ -1,7 +1,6 @@
 <%@page import="java.io.FileReader"%>
 <%@page import="java.io.BufferedReader"%>
 <%@page import="java.io.IOException"%>
-<%@page import="user.Member"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="java.io.FileOutputStream"%>
 <%@page import="java.io.BufferedOutputStream"%>
@@ -12,7 +11,7 @@
 <%@page import="java.io.BufferedWriter"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -28,6 +27,9 @@
 	String password = request.getParameter("password");
 	BufferedReader reader = null;
 	Boolean result = false;
+	
+	PrintWriter writer = null;
+	BufferedWriter bw = null;
 	
 	try {
 		reader = new BufferedReader(new FileReader(filePath));
@@ -48,14 +50,21 @@
 			}
 		}
 		
+		filePath = application.getRealPath("/WEB-INF/product/cart.txt");
+		bw = new BufferedWriter(new FileWriter(filePath));
+		writer = new PrintWriter(bw);
+		
+		writer.print("product");
+		writer.println("");
+		writer.flush();
+		writer.close();
+		
 		if(result == true){
 		%>
 			<jsp:forward page="index.jsp"></jsp:forward>
 		<%
 		} else {
-		%>
-			<jsp:forward page="signUp.jsp"></jsp:forward>
-		<%
+			out.println("<script>alert('아이디 또는 비밀번호를 다시 한 번 확인해주세요.');history.back();</script>");
 		}
 	} catch (Exception e){
 		e.printStackTrace();

@@ -6,6 +6,20 @@
 #bodybg2 {
 	background-color: white;
 }
+.main_footer {
+	bottom: 0;
+	text-align: left;
+	width: 100%;
+	color: #666;
+	letf: 0;
+	margin-top: 150px;
+}
+.main_footer > hr {
+	color: #bbb;
+	background: #bbb;
+	border: 0;
+	height: 0.5px;
+}
 
 /* Top Menu */
 #mainHeader {
@@ -240,10 +254,13 @@ img {
 	list-style: none;
 }
 .category_nav ul li {
-	line-height: 30px;
+	margin: 0dp;
+	padding: 0dp;
 }
 .category_nav ul li a {
 	text-decoration: none;
+	margin: 0dp;
+	padding: 0dp;
 }
 .category_section {
 	margin: auto;
@@ -264,7 +281,7 @@ img {
 .menu_chicken {
 	background-color: white;
 	width: 750px;
-	height: 800px;
+	height: 100%;
 	border-radius: 15px;
 }
 .img_menu_chicken {
@@ -279,6 +296,11 @@ img {
 	margin-left: 20px;
 	margin-right: 20px;
 	border: 1px dotted #666;
+	margin-top: 30px;
+}
+.company_table_img {
+	margin-left: 20px;
+	margin-right: 20px;
 	margin-top: 30px;
 }
 .menu_table_text {
@@ -297,6 +319,7 @@ img {
 	border-radius: 25px;
 	margin-top: 50px;
 	padding: 30px;
+	margin-left: 150px;
 }
 .signup_section {
 	margin: auto;
@@ -315,4 +338,67 @@ img {
 	border-radius: 13px;
 	padding-left: 13px;
 	margin-left: 10px;
+}
+
+/* cart insert */
+.cart_insert_out_class {
+	background-color: white;
+	width: 750px;
+	height: 100%;
+	border-radius: 15px;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+.cart_insert_img {
+	margin: auto;
+	margin-top: 30px;
+	margin-right: 43px;
+}
+.cart_insert_table {
+	margin: auto;
+	text-align: center;
+}
+.cart_insert_table > tr > td {
+	padding-left: 30px;
+}
+.cart_insert_input {
+	border-radius: 15px;
+	padding-left: 14px;
+	margin-left: 10px;
+	width: 55px;
+}
+.cart_insert_btn {
+	background-color: red;
+	color: white;
+	border-radius: 15px;
+	margin-left: 26px;
+	margin-right: 7px;
+	margin-bottom: 25px;
+}
+.cart_insert_innertable {
+	margin: auto;
+}
+
+/* cart view */
+.cart_view_table {
+	margin: auto;
+	text-align: center;
+	padding-top: 20px;
+	border-collapse: collapse;
+}
+.cart_view_table > tr > td {
+	padding-left: 30px;	
+}
+.cart_view_tr td {
+	border-bottom: 1px solid #bbb;
+}
+.cart_view_btn {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: red;
+	border-radius: 15px;
+	color: white;
+	padding: 3px;
+	padding-left: 7px;
+	padding-right: 7px;
 }

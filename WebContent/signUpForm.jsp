@@ -15,11 +15,11 @@
 					<tbody>
 						<tr>
 							<th> <label for="username">ID</label> </th>
-							<td> <input type="text" name="username" id="username" class="signup_input"> </td>
+							<td> <input type="text" name="username" id="username" class="signup_input" required="required"> </td>
 						</tr>
 						<tr>
 						 	<th> <label for="password">PW</label> </th>
-						 	<td> <input type="password" name="password" id="password" class="signup_input"> </td>
+						 	<td> <input type="password" name="password" id="password" class="signup_input" required="required"> </td>
 						</tr>
 						<tr>
 							<td colspan="2">

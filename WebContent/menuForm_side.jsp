@@ -12,19 +12,34 @@
 		<hr />
 		<table class="menu_table">
 			<tr>
-				<td> <img src="Images/side_1.jpg" width="180px" class="menu_table_img"/> </td>
-				<td> <img src="Images/side_2.jpg" width="180px" class="menu_table_img" /> </td>
-			    <td> <img src="Images/side_3.jpg" width="180px" class="menu_table_img" /> </td>
+				<td> <a href="cart_insert.jsp?img=Images/side_1.jpg"> <img src="Images/side_1.jpg" width="180px" class="menu_table_img"/> </a> </td>
+				<td> <a href="cart_insert.jsp?img=Images/side_2.jpg"> <img src="Images/side_2.jpg" width="180px" class="menu_table_img" /> </a> </td>
+			    <td> <a href="cart_insert.jsp?img=Images/side_3.jpg"> <img src="Images/side_3.jpg" width="180px" class="menu_table_img" /> </a> </td>
+			</tr>
+			<tr class="menu_table_text">
+				<td> 어니언치즈감자 </td>
+				<td> 치즈감자 </td>
+				<td> 치즈할라피뇨너겟 </td>
 			</tr>
 			<tr>
-				<td> <img src="Images/side_4.jpg" width="180px" class="menu_table_img"/> </td>
-				<td> <img src="Images/side_5.jpg" width="180px" class="menu_table_img" /> </td>
-			    <td> <img src="Images/side_6.jpg" width="180px" class="menu_table_img" /> </td>
+				<td> <a href="cart_insert.jsp?img=Images/side_4.jpg"> <img src="Images/side_4.jpg" width="180px" class="menu_table_img"/> </a> </td>
+				<td> <a href="cart_insert.jsp?img=Images/side_5.jpg"> <img src="Images/side_5.jpg" width="180px" class="menu_table_img" /> </a> </td>
+			    <td> <a href="cart_insert.jsp?img=Images/side_6.jpg"> <img src="Images/side_6.jpg" width="180px" class="menu_table_img" /> </a> </td>
+			</tr>
+			<tr class="menu_table_text">
+				<td> 할라피뇨너겟 </td>
+				<td> 리코타샐러드 </td>
+				<td> 김떡만 </td>
 			</tr>
 			<tr>
-				<td> <img src="Images/side_7.jpg" width="180px" class="menu_table_img"/> </td>
-				<td> <img src="Images/side_8.jpg" width="180px" class="menu_table_img" /> </td>
-			    <td> <img src="Images/side_9.jpg" width="180px" class="menu_table_img" /> </td>
+				<td> <a href="cart_insert.jsp?img=Images/side_7.jpg"> <img src="Images/side_7.jpg" width="180px" class="menu_table_img"/> </a> </td>
+				<td> <a href="cart_insert.jsp?img=Images/side_8.jpg"> <img src="Images/side_8.jpg" width="180px" class="menu_table_img" /> </a> </td>
+			    <td> <a href="cart_insert.jsp?img=Images/side_9.jpg"> <img src="Images/side_9.jpg" width="180px" class="menu_table_img" /> </a> </td>
+			</tr>
+			<tr class="menu_table_text">
+				<td> 텐터로인(2조각) </td>
+				<td> 프라이랩(2종) </td>
+				<td> 팝콘만두(4종) </td>
 			</tr>
 		</table>
 		<div>

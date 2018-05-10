@@ -1,5 +1,6 @@
+<%@page import="java.io.FileReader"%>
+<%@page import="java.io.BufferedReader"%>
 <%@page import="java.io.IOException"%>
-<%@page import="user.Member"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="java.io.FileOutputStream"%>
 <%@page import="java.io.BufferedOutputStream"%>
@@ -19,8 +20,31 @@
 	String filePath = application.getRealPath("/WEB-INF/user/user.txt");
 	BufferedWriter bw = null;
 	PrintWriter writer = null;
+	BufferedReader reader = null;
+	Boolean overlap = false;
 	
 	try {
+		reader = new BufferedReader(new FileReader(filePath));
+		
+		while(true){
+			String str = reader.readLine();
+			
+			if(str == null) break;
+			
+			String[] info = str.split("\t");
+			
+			if(info[1].equals(username)){
+				overlap = true;
+				break;
+			}
+		}
+		
+		if(overlap == true){
+			out.println("<script>alert('이미 존재하는 아이디입니다.');</script>");
+			out.println("<script>history.back();</script>");
+			return;
+		}
+		
 		bw = new BufferedWriter(new FileWriter(filePath, true));
 		writer = new PrintWriter(bw, true);
 		
