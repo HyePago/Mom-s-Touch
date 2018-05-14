@@ -33,7 +33,8 @@
 					<% }  else { %>
 					<ul class="navbar-nav2">
 						<li class="nav-item" id="item3"> <a class="menu_link" href="cart_view.jsp"> 장바구니 </a>
-						<li class="nav-item" id="item3"> <a class="menu_link" href="logoutProc.jsp"> 로그아웃 </a>
+						<li class="nav-item" id="item4"> <a class="menu_link" href="logoutProc.jsp"> 로그아웃 </a>
+						<li class="nav-item" id="item4"> <a class="menu_link" href="writer.jsp"> 고객센터 </a>
 					</ul>
 					<% } %>
 				</div>
